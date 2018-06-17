@@ -1,15 +1,19 @@
 //define functions here
 
-$(document).ready(function(){
+//$(document).ready(function(){
   
   function getIt(){
     $('p').on("click", function (){
-alert("Hey!");
+      
+    alert("Hey!");
+  
+    }
   }
   
   
-}
-});
+
+//});
+ 
  /*
 
   
@@ -31,7 +35,7 @@ $('form').on('submit', function submitIt(){
   
   alert("Your form is going to be submittef now");
   
-});
+});*/
 
 
 

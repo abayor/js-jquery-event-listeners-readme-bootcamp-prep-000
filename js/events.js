@@ -1,7 +1,14 @@
 //define functions here
 
 $(document).ready(function(){
- 
+  
+  function getIt(){
+    $('p')
+  }
+  
+  
+});
+ /*
 $('p').on("click", function (){
 alert("Hey!");
   
@@ -26,4 +33,4 @@ $('form').on('submit', function submitIt(){
 });
 
 
-});
+

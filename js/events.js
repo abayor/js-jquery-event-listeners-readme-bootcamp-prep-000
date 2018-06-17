@@ -1,7 +1,29 @@
 //define functions here
 
 $(document).ready(function(){
+ 
+$('p').on("click", function (){
+alert("Hey!");
+  
+});
 
-// call functions here
+$("img").on("load", function frameIt(){
+  $("img").addClass("tasty");
+  
+ })
+
+$("input").on("keydown", function pressIt(e){
+  if (e.which ===71){
+    alert('yOU PRESSED g');
+  }
+ 
+});
+
+$('form').on('submit', function submitIt(){
+  
+  alert("Your form is going to be submittef now");
+  
+});
+
 
 });

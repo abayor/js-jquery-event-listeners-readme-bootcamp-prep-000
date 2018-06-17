@@ -18,6 +18,16 @@
   })
   }
   
+  function pressIt(){
+    $("input").on("keydown", function pressIt(e){
+  if (e.which ===71){
+    alert('yOU PRESSED g');
+  
+  }
+  })
+  }
+  function 
+  
 
 //});
  
